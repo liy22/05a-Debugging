@@ -264,8 +264,8 @@ def broken_6(n):
     Side effects:   None.
     """
     total = 0
-    for k in range(n):
-        total.x = total.x + (1 / (k + 1))
+    for k in range(1,n+1):
+        total = total + (1 / k )
 
     return total
 
